@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.card{
+    background-color: burlywood;
+    padding: 2rem;
+    transition: all .3s ease;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.card h2{
+    font-family: 'Rubik Moonrocks', cursive;
+    background: linear-gradient(to bottom, #1a2a6c, #b21f1f, #fdbb2d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .card{
+        height: 400px;
+    }
+
+    .card:hover{
+        transform: unset;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .card{
+        height: 300px;
+    }
+}
